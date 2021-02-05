@@ -22,9 +22,17 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+// export const FACTORY_ADDRESS = {
+//   [ChainId.MAINNET]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+//   [ChainId.ROPSTEN]: '0x5AE8A5F7c80bdb85Bde623dB8107da7Caf72896B',
+//   [ChainId.ROPSTEN]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+//   [ChainId.ROPSTEN]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+//   [ChainId.ROPSTEN]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+//   [ChainId.ROPSTEN]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+// }
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const FACTORY_ADDRESS = '0x80Cb60432bAC36f4fb84f14bF646f7702adE2683'
+export const INIT_CODE_HASH = '0x9082de70494408909db7519f9f5da015de006efc740b3ef52ce45dcea448b256'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
