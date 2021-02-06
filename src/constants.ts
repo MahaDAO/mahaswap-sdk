@@ -31,8 +31,8 @@ export enum Rounding {
 //   [ChainId.ROPSTEN]: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
 // }
 
-export const FACTORY_ADDRESS = '0x8443Bb3cBA1bfc2DB46C252de3A003fBE6b62493'
-export const INIT_CODE_HASH = '0xb05a156cf6baf5cb373223ee5a580bb16785bb5f2b84bee5a424cb5dfd2469b2'
+export const FACTORY_ADDRESS = '0x8443bb3cba1bfc2db46c252de3a003fbe6b62493'
+export const INIT_CODE_HASH = '0xfb5c7c7e7bd3a1a2291fbc1f333b87ccafc9b232b63760dfcebbc8faa0d6e450'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
