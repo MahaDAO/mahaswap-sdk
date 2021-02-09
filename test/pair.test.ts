@@ -1,8 +1,8 @@
 import { ChainId, Token, Pair, TokenAmount, WETH, Price } from '../src'
 
 describe.only('Pair', () => {
-  const USDC = new Token(ChainId.MAINNET, '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984', 18, 'USDC', 'USD Coin')
-  const DAI = new Token(ChainId.MAINNET, '0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6', 18, 'DAI', 'DAI Stablecoin')
+  const USDC = new Token(ChainId.MAINNET, '0xfa1c36f01fea68726ec60cf1f050783aa9d1076c', 18, 'USDC', 'USD Coin')
+  const DAI = new Token(ChainId.MAINNET, '0x7e53072c6ca9104c60362586d9080a22ea366e91', 18, 'DAI', 'DAI Stablecoin')
 
   describe('constructor', () => {
     it('cannot be used for tokens on different chains', () => {
@@ -14,7 +14,7 @@ describe.only('Pair', () => {
 
   describe.only('#getAddress', () => {
     it('returns the correct address', () => {
-      expect(Pair.getAddress(USDC, DAI)).toEqual('0x6ee5486E6cd36959BE533921217a6dAD1D3d7673')
+      expect(Pair.getAddress(USDC, DAI)).toEqual('0x4a387CeA6a6EF6e05fAB85d63F219eEf8A58B68d')
     })
   })
 
